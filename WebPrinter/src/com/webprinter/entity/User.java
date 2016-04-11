@@ -1,5 +1,10 @@
 package com.webprinter.entity;
 
+/**
+ * 用户表
+ * @author apple
+ *
+ */
 public class User {
 	private int id;
 	private String userName;

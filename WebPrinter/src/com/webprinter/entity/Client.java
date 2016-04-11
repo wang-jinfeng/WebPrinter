@@ -1,6 +1,5 @@
 package com.webprinter.entity;
 
-import java.net.Socket;
 
 /**
  * 客户端信息
@@ -17,7 +16,7 @@ public class Client {
 		return guid;
 	}
 	public void setGuid(String guid) {
-		guid = guid;
+		this.guid = guid;
 	}
 	public String getIpAdress() {
 		return ipAdress;
